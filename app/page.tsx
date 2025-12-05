@@ -45,38 +45,38 @@ export default function Home() {
   return (
      <div >
          <Head/>
-    <main className="flex items-center justify-right min-h-screen bg-[#0f172a] text-white font-mono px-5">
-      <div className="w-full  pl-20">
-        <p className="text-gray-500">{"<html>"}</p>
-        <p className="ml-4 text-gray-400">{"<body>"}</p>
+        <main className="flex items-center justify-center min-h-screen bg-[#0f172a] text-white font-mono px-5">
+          <div className="w-full  pl-20">
+            <p className="text-gray-500">{"<html>"}</p>
+            <p className="ml-4 text-gray-400">{"<body>"}</p>
 
-        {/* Animated Typing */}
-        <h1 className="ml-8 text-4xl md:text-6xl font-bold text-cyan-400 mt-4">
-          {"< Hi, I'm />"}
-        </h1>
-        <h1 className="ml-8 text-2xl md:text-6xl font-bold text-cyan-400 mt-4 ">
-          <span className="border-r-4 border-cyan-400 pr-1">{text}</span>
-        </h1>
+            {/* Animated Typing */}
+            <h1 className="ml-8 text-4xl md:text-6xl font-bold text-cyan-400 mt-4">
+              {"< Hi, I'm />"}
+            </h1>
+            <h1 className="ml-8 text-4xl md:text-6xl font-bold text-cyan-400 mt-4 ">
+              <span className="border-r-4 border-cyan-400 pr-1">{text}</span>
+            </h1>
 
-        <p className="ml-8 text-gray-300 mt-4">
-          {"<p>My Skills & Projects</p>"}
-        </p>
+            <p className="ml-8 text-gray-300 mt-4">
+              {"<p>My Skills & Projects</p>"}
+            </p>
 
-        <div className="ml-8 mt-6">
-          <p className="text-gray-400">{"<ul>"}</p>
-          <ul className="ml-4 text-gray-300 list-disc">
-            <li>{"<li>React / Next.js</li>"}</li>
-            <li>{"<li>TailwindCSS / Framer Motion</li>"}</li>
-            <li>{"<li>AI & ML projects</li>"}</li>
-          </ul>
-          <p className="text-gray-400">{"</ul>"}</p>
-        </div>
+            <div className="ml-8 mt-6">
+              <p className="text-gray-400">{"<ul>"}</p>
+              <ul className="ml-4 text-gray-300 list-disc">
+                <li>{"<li>React / Next.js</li>"}</li>
+                <li>{"<li>TailwindCSS / Framer Motion</li>"}</li>
+                <li>{"<li>AI & ML projects</li>"}</li>
+              </ul>
+              <p className="text-gray-400">{"</ul>"}</p>
+            </div>
 
-        <p className="ml-4 text-gray-400 mt-6">{"</body>"}</p>
-        <p className="text-gray-500">{"</html>"}</p>
-      </div>
-    </main>
-   
+            <p className="ml-4 text-gray-400 mt-6">{"</body>"}</p>
+            <p className="text-gray-500">{"</html>"}</p>
+          </div>
+        </main>
+      
     < Navi />
      <div className="flex flex-col md:flex-row gap-8 px-10 py-10 bg-[#0f172a]">
         <div className="md:w-1/2">
